@@ -21,12 +21,40 @@ layers:
     - {t: ',', s: <}
     - {t: ., s: '>'}
     - /
-  - - ↹
+  - - ⌘
     - {t: BACKSPACE, s: Alt+ BACKSPACE}
     - nav
-    - num
+    - '2'
     - SPACE
     - CTRL
+  qwerty:
+  - [Q, W, E, R, T, Y, U, I, O, P]
+  - - A
+    - S
+    - D
+    - F
+    - G
+    - H
+    - J
+    - K
+    - L
+    - {t: ;, s: ':'}
+  - - Z
+    - X
+    - C
+    - V
+    - B
+    - N
+    - M
+    - {t: ',', s: <}
+    - {t: ., s: '>'}
+    - /
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   num:
   - - '~'
     - '@'
@@ -52,7 +80,7 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: '0', type: held}
+    - '0'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   nav:
@@ -93,7 +121,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   fun:
-  - - {t: ▽, type: trans}
+  - - {t: qwerty, h: toggle}
     - MUTE
     - VOL DN
     - VOL UP
@@ -126,6 +154,6 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-    - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
